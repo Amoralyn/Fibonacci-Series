@@ -50,3 +50,22 @@ for (var counter = 0; counter <= 100; counter++) {
                 console.log(counter);
     }
 }
+}
+}
+
+
+
+var prime = function(num){
+    if num < 2{
+        return false
+    }
+    for (var i= 2 ; i <= num; i++){
+        if num % i == 0{
+            return false
+        }
+        else{
+            return true
+        }
+    }
+    }
+    
